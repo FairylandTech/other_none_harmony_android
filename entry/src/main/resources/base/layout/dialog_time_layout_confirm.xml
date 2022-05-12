@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_content">
+
+    <DirectionalLayout
+        ohos:id="$+id:dialog_container"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:background_element="$graphic:background_ability_keep_accounts"
+        ohos:left_margin="15vp"
+        ohos:right_margin="15vp"
+        ohos:orientation="vertical">
+
+        <TimePicker
+            ohos:top_padding="15vp"
+            ohos:id="$+id:time_pick"
+            ohos:selected_text_size="22fp"
+            ohos:normal_text_size="20fp"
+            ohos:background_element="#fff"
+            ohos:height="match_content"
+            ohos:width="match_parent">
+        </TimePicker>
+
+        <Component
+            ohos:height="1vp"
+            ohos:width="match_parent"
+            ohos:left_margin="15vp"
+            ohos:right_margin="15vp"
+            ohos:background_element="#CCCCCC"/>
+
+        <Text
+            ohos:id="$+id:dialog_confirm"
+            ohos:text_color="#1e90ff"
+            ohos:text="确定"
+            ohos:height="40vp"
+            ohos:width="match_parent"
+            ohos:left_margin="10vp"
+            ohos:text_size="15fp"
+            ohos:text_alignment="center"/>
+    </DirectionalLayout>
+</DirectionalLayout>
